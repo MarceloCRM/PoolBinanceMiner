@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: pool-binance-monitor
+    env: dotnet
+    buildCommand: "dotnet publish -c Release -o out"
+    startCommand: "dotnet out/PoolBinanceMonitor.dll"
+    plan: free
+    envVars:
+      - key: BINANCE_API_KEY
+        sync: false
+      - key: BINANCE_SECRET_KEY
+        sync: false

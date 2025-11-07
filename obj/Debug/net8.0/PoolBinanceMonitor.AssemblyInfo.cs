@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PoolBinanceMonitor")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+583cbec52c4f76938a5890c9c1fbdd6e718678ec")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cff312648dd28536f61ced486a2384f705e3ecfc")]
 [assembly: System.Reflection.AssemblyProductAttribute("PoolBinanceMonitor")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PoolBinanceMonitor")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

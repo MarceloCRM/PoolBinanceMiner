@@ -1,7 +1,6 @@
 services:
   - type: web
-    name: poolbinance-monitor
+    name: pool-binance-monitor
     env: docker
-    repo: https://github.com/MarceloCRM/PoolBinanceMonitor
-    rootDir: PoolBinanceMonitor
     plan: free
+    region: oregon

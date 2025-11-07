@@ -1,0 +1,40 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "PoolBinanceMonitor",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/Mining/status": {
+      "get": {
+        "tags": [
+          "Mining"
+        ],
+        "parameters": [
+          {
+            "name": "algo",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "default": "sha256"
+            }
+          },
+          {
+            "name": "userName",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "default": "pelminer"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": { }
+}

@@ -1,0 +1,23 @@
+[
+  {
+    "ContainingType": "PoolBinanceMonitor.Controllers.MiningController",
+    "Method": "GetStatus",
+    "RelativePath": "api/Mining/status",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "algo",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "userName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
